@@ -1,4 +1,4 @@
-# Name Surname
+# Nina K
 
 ---
 
@@ -6,46 +6,47 @@
 
 ## Contacts
 
-**email:** email to fill in
-**tel.:** tel to fill in
+**email:** \*\*\*\*\*\*\*@icloud.com
+**tel.:** +375 - 29 - \*\*\*\*\*\*\*
 
 ---
 
 ## Personal Information
 
-Short paragraph to describe
+Seeking for front-end position in order to grow and develop my own skills as a coder.
 
 ---
 
 ## Skills
 
-- skills to fill in
-- skills to fill in
-- skills to fill in
-- skills to fill in
+- HTML, CSS basics
+- Microsoft Word, Excel
+- High organizational skills, time management
+- Teamwork, foreign languages
 
 ---
 
 ## Work Experience
 
-1. Place to fill in, years, [website](www.google.com)
-2. Place to fill in, years, [website](www.google.com)
+1. DealExtreme, 2015-2017, marketing team, [website](www.dx.com)
+2. Trading, 2018-2021
 
 ---
 
 ## Education
 
-| institution/course | year |
-| ------------------ | ---- |
-| 1                  |      |
-| 2                  |      |
-| 3                  |      |
+| institution/course                                         | year        |
+| ---------------------------------------------------------- | ----------- |
+| Udemy, The Complete JavaScript Course                      | 2021        |
+| SZ polytechnic, Chinese as foreigh language                | 2012 - 2015 |
+| BSUIR, information systems and technologies (in economics) | 2006-2011   |
 
 ---
 
 ## Foreign Languages
 
-| language | level |
-| -------- | ----- |
-| english  |       |
-| chinese  |       |
+| language   | level              |
+| ---------- | ------------------ |
+| english    | upper-intermediate |
+| chinese    | intermediate       |
+| lithuanian | intermediate       |
