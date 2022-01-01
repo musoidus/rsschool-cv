@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Nina</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="userpic.jpeg" alt="Profile photo" />
+      <section>
+        <h1>Nina Kor</h1>
+        <h3>front-end software developer</h3>
+        <p>
+          Seeking for front-end position in order to grow and develop my own
+          skills as a coder.
+        </p>
+      </section>
+    </header>
+    <!-- NAVIGATION -->
+    <nav>
+      <ul>
+        <li class="menu" id="contacts">contacts</li>
+        <li class="menu" id="skills">skills</li>
+        <li class="menu" id="languages">languages</li>
+        <li class="menu" id="education">education</li>
+        <li class="menu" id="experience">experience</li>
+        <li class="menu" id="code">code</li>
+      </ul>
+    </nav>
+    <!-- MAIN -->
+    <main>
+      <!-- LEFT CONTAINER -->
+      <div class="main_left">
+        <section id="section_contacts">
+          <h2>contacts</h2>
+          <ul>
+            <li><b>email:</b>*****@icloud.com</li>
+            <li><b>tel:</b>+375-29-*******</li>
+            <li><b>telegram:</b>@musmus22</li>
+          </ul>
+        </section>
+        <section id="section_skills">
+          <h2>skills</h2>
+          <ul>
+            <li>HTML, CSS basics</li>
+            <li>Microsoft Word, Excel</li>
+            <li>High organizational skills, time management</li>
+            <li>Teamwork</li>
+            <li>Foreign languages</li>
+          </ul>
+        </section>
+        <section id="section_languages">
+          <h2>languages</h2>
+          <table>
+            <tr>
+              <th>language</th>
+              <th>level</th>
+            </tr>
+            <tr>
+              <td>english</td>
+              <td>upper-intermediate</td>
+            </tr>
+            <tr>
+              <td>chinese</td>
+              <td>intermediate</td>
+            </tr>
+            <tr>
+              <td>lithuanian</td>
+              <td>upper-intermediate</td>
+            </tr>
+          </table>
+        </section>
+      </div>
+      <!-- RIGHT CONTAINER -->
+      <div class="main_right">
+        <section id="section_education">
+          <h2>education</h2>
+          <table>
+            <tr>
+              <th>institution/course</th>
+              <th>year</th>
+            </tr>
+            <tr>
+              <td>Udemy, The Complete JavaScript Course</td>
+              <td>2021</td>
+            </tr>
+            <tr>
+              <td>SZ polytechnic, Chinese as foreign language</td>
+              <td>2012 - 2015</td>
+            </tr>
+            <tr>
+              <td>
+                BSUIR, information systems and technologies (in economics)
+              </td>
+              <td>2006-2011</td>
+            </tr>
+          </table>
+        </section>
+        <section id="section_experience">
+          <h2>experience</h2>
+          <ol>
+            <li><a href="dx.com">DealExtreme</a>, marketing team, 2015-2017</li>
+            <li>Chinese teacher, self-employed, 2019-2020</li>
+            <li>
+              <a href="bitstamp.com">Trading</a>, self-employed, 2018-2021
+            </li>
+          </ol>
+        </section>
+        <section id="section_code">
+          <h2>code example</h2>
+          <pre>
+            <code>
+const menuItems = document.querySelectorAll(".menu");
+menuItems.forEach(function (element) {
+  let arg = "#section_" + element.id;
+  element.addEventListener("mouseover", function () {
+    document.querySelector(arg).classList.add("highlited");
+  });
+  element.addEventListener("mouseout", function () {
+    document.querySelector(arg).classList.remove("highlited");
+  });
+});</code>
+          </pre>
+        </section>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <a href="https://github.com/musoidus/">Visit my gitHub</a>
+      <time>2021</time>
+      <a href="https://rs.school/js/"
+        ><img src="rs_school_js.svg" alt="rsschool logo"
+      /></a>
+      <a href="https://rs.school/js/">RSSchool JavaScript Course 0</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
