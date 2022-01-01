@@ -10,7 +10,7 @@
   <body>
     <!-- HEADER -->
     <header>
-      <img src="userpic.jpeg" alt="Userpic" />
+      <img src="userpic.jpeg" alt="Profile photo" />
       <section>
         <h1>Nina Kor</h1>
         <h3>front-end programmer</h3>
@@ -23,40 +23,37 @@
     <!-- NAVIGATION -->
     <nav>
       <ul>
-        <li><a href="#">contacts</a></li>
-        <li><a href="#">skills</a></li>
-        <li><a href="#">languages</a></li>
-        <li><a href="#">education</a></li>
-        <li><a href="#">experience</a></li>
-        <li><a href="#">code</a></li>
+        <li class="menu" id="contacts">contacts</li>
+        <li class="menu" id="skills">skills</li>
+        <li class="menu" id="languages">languages</li>
+        <li class="menu" id="education">education</li>
+        <li class="menu" id="experience">experience</li>
+        <li class="menu" id="code">code</li>
       </ul>
     </nav>
     <!-- MAIN -->
     <main>
       <!-- LEFT CONTAINER -->
-      <div class="main-left">
-        <section class="">
-          <h2>contact</h2>
-          <p title="secret information, please contact me via telegram">
-            <strong>email:</strong>*****@icloud.com
-          </p>
-          <p title="secret information, please contact me via telegram">
-            <strong>tel:</strong>+375-29-*******
-          </p>
-          <p title="this is real, please contact me via telegram">
-            <strong>telegram:</strong>@musmus22
-          </p>
+      <div class="main_left">
+        <section id="section_contacts">
+          <h2>contacts</h2>
+          <ul>
+            <li><b>email:</b>*****@icloud.com</li>
+            <li><b>tel:</b>+375-29-*******</li>
+            <li><b>telegram:</b>@musmus22</li>
+          </ul>
         </section>
-        <section>
+        <section id="section_skills">
           <h2>skills</h2>
           <ul>
             <li>HTML, CSS basics</li>
             <li>Microsoft Word, Excel</li>
             <li>High organizational skills, time management</li>
-            <li>Teamwork, foreign languages</li>
+            <li>Teamwork</li>
+            <li>Foreign languages</li>
           </ul>
         </section>
-        <section>
+        <section id="section_languages">
           <h2>languages</h2>
           <table>
             <tr>
@@ -79,8 +76,8 @@
         </section>
       </div>
       <!-- RIGHT CONTAINER -->
-      <div class="main-right">
-        <section>
+      <div class="main_right">
+        <section id="section_education">
           <h2>education</h2>
           <table>
             <tr>
@@ -103,7 +100,7 @@
             </tr>
           </table>
         </section>
-        <section>
+        <section id="section_experience">
           <h2>experience</h2>
           <ol>
             <li><a href="dx.com">DealExtreme</a>, marketing team, 2015-2017</li>
@@ -113,21 +110,33 @@
             </li>
           </ol>
         </section>
-        <section>
+        <section id="section_code">
           <h2>code example</h2>
-          <code>
-            <pre>
-              some code to paste here
-            </pre>
-          </code>
+          <pre>
+            <code>
+const menuItems = document.querySelectorAll(".menu");
+menuItems.forEach(function (element) {
+  let arg = "#section_" + element.id;
+  element.addEventListener("mouseover", function () {
+    document.querySelector(arg).classList.add("highlited");
+  });
+  element.addEventListener("mouseout", function () {
+    document.querySelector(arg).classList.remove("highlited");
+  });
+});</code>
+          </pre>
         </section>
       </div>
     </main>
     <!-- FOOTER -->
     <footer>
       <a href="https://github.com/musoidus/">Visit my gitHub</a>
-      <img src="rs_school_js.svg" alt="rsschool logo" />
+      <time>2021</time>
+      <a href="https://rs.school/js/"
+        ><img src="rs_school_js.svg" alt="rsschool logo"
+      /></a>
       <a href="https://rs.school/js/">RSSchool JavaScript Course 0</a>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
