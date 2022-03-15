@@ -6,13 +6,15 @@
 
 **email:** \*\*\*\*\*\*\*@icloud.com
 
-**tel.:** +375 - 29 - \*\*\*\*\*\*\*
+**tel.:** +370 - 646 - 09\*\*\*
+
+**telegram:** @musmus22
 
 ---
 
 ## Personal Information
 
-Seeking for front-end position in order to grow and develop my own skills as a coder.
+I am 34 yers old female, currently staying in Lithuania and seeking for front-end position in order to grow and develop my own skills as a coder.
 
 ---
 
@@ -36,6 +38,7 @@ Seeking for front-end position in order to grow and develop my own skills as a c
 
 | institution/course                                         | year        |
 | ---------------------------------------------------------- | ----------- |
+| RS School, JS Pre-school (Stage 0)                         | 2021-2022   |
 | Udemy, The Complete JavaScript Course                      | 2021        |
 | SZ polytechnic, Chinese as foreigh language                | 2012 - 2015 |
 | BSUIR, information systems and technologies (in economics) | 2006-2011   |
