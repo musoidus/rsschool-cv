@@ -1,2 +1,3 @@
 # rsschool-cv
-cv (markdown)
+
+https://musoidus.github.io/rsschool-cv/cv
